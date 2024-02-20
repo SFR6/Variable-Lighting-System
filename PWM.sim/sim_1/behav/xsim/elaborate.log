@@ -1,0 +1,28 @@
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TOP_LEVEL_behav xil_defaultlib.TOP_LEVEL -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3813] value in initialization depends on signal 'time' [C:/Xilinx/PROJECTS/PWM/PWM.srcs/sources_1/new/7_Segment_Generator.vhd:78]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.DMUX_1_4 [dmux_1_4_default]
+Compiling architecture behavioral of entity xil_defaultlib.Integer_Converter [integer_converter_default]
+Compiling architecture behavioral of entity xil_defaultlib.Time_Converter [time_converter_default]
+Compiling architecture behavioral of entity xil_defaultlib.Counter [counter_default]
+Compiling architecture behavioral of entity xil_defaultlib.MUX_2_1 [mux_2_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.Test_Counter [test_counter_default]
+Compiling architecture behavioral of entity xil_defaultlib.LED_MUX [led_mux_default]
+Compiling architecture behavioral of entity xil_defaultlib.PWM_Generator [pwm_generator_default]
+Compiling architecture behavioral of entity xil_defaultlib.Seven_Segment_Counter [seven_segment_counter_default]
+Compiling architecture behavioral of entity xil_defaultlib.Seven_Segment_Generator [seven_segment_generator_default]
+Compiling architecture behavioral of entity xil_defaultlib.top_level
+Built simulation snapshot TOP_LEVEL_behav

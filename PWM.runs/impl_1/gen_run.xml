@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1653380273">
+  <File Type="ROUTE-PWR" Name="TOP_LEVEL_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="TOP_LEVEL.tcl"/>
+  <File Type="BITSTR-MMI" Name="TOP_LEVEL.mmi"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="TOP_LEVEL_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="TOP_LEVEL_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="TOP_LEVEL_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="TOP_LEVEL_reports.tcl"/>
+  <File Type="OPT-TIMING" Name="TOP_LEVEL_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="TOP_LEVEL_opt.dcp"/>
+  <File Type="OPT-DRC" Name="TOP_LEVEL_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="TOP_LEVEL.hwdef"/>
+  <File Type="PWROPT-DCP" Name="TOP_LEVEL_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="TOP_LEVEL_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="TOP_LEVEL_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="TOP_LEVEL_placed.dcp"/>
+  <File Type="PLACE-IO" Name="TOP_LEVEL_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="TOP_LEVEL_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="TOP_LEVEL_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="TOP_LEVEL_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="TOP_LEVEL_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="TOP_LEVEL_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="TOP_LEVEL_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BIN" Name="TOP_LEVEL.bin"/>
+  <File Type="PLACE-TIMING" Name="TOP_LEVEL_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="TOP_LEVEL_postplace_pwropt.dcp"/>
+  <File Type="BITSTR-MSK" Name="TOP_LEVEL.msk"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="TOP_LEVEL_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="TOP_LEVEL_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="TOP_LEVEL_drc_physopted.rpt"/>
+  <File Type="BITSTR-RBT" Name="TOP_LEVEL.rbt"/>
+  <File Type="PHYSOPT-TIMING" Name="TOP_LEVEL_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="TOP_LEVEL_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="TOP_LEVEL_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="TOP_LEVEL_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="TOP_LEVEL_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="TOP_LEVEL_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="TOP_LEVEL_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="TOP_LEVEL_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="TOP_LEVEL_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="TOP_LEVEL_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="TOP_LEVEL_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="TOP_LEVEL_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="TOP_LEVEL_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="TOP_LEVEL_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="TOP_LEVEL_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="TOP_LEVEL_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="TOP_LEVEL_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="TOP_LEVEL_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="TOP_LEVEL_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="TOP_LEVEL_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="TOP_LEVEL_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="TOP_LEVEL_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="TOP_LEVEL_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="TOP_LEVEL_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="TOP_LEVEL_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="TOP_LEVEL_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="TOP_LEVEL_bus_skew_postroute_physopted.rpt"/>
+  <File Type="BG-BIT" Name="TOP_LEVEL.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="TOP_LEVEL_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="TOP_LEVEL_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-NKY" Name="TOP_LEVEL.nky"/>
+  <File Type="BITSTR-BMM" Name="TOP_LEVEL_bd.bmm"/>
+  <File Type="PDI-FILE" Name="TOP_LEVEL.pdi"/>
+  <File Type="RCFI_FILE" Name="TOP_LEVEL.rcfi"/>
+  <File Type="CFI_FILE" Name="TOP_LEVEL.cfi"/>
+  <File Type="RNPI_FILE" Name="TOP_LEVEL.rnpi"/>
+  <File Type="NPI_FILE" Name="TOP_LEVEL.npi"/>
+  <File Type="RBD_FILE" Name="TOP_LEVEL.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="TOP_LEVEL.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="TOP_LEVEL.sysdef"/>
+  <File Type="BG-BGN" Name="TOP_LEVEL.bgn"/>
+  <File Type="BG-DRC" Name="TOP_LEVEL.drc"/>
+  <File Type="RDI-RDI" Name="TOP_LEVEL.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/PWM_Generator.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/DMUX_1_4.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/MUX_2_1.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Integer_Converter.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Decoder.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Counter.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/TOP_LEVEL.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/7_Segment_Generator.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Seven_Segment_Counter.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Test_Counter.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/LED_MUX.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="TOP_LEVEL"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/Constraints.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/TOP_LEVEL.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2021"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

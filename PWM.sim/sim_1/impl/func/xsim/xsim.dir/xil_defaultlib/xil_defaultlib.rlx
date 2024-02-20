@@ -1,0 +1,5 @@
+0.7
+2020.2
+Oct 19 2021
+03:16:22
+C:/Xilinx/PROJECTS/PWM/PWM.sim/sim_1/impl/func/xsim/TOP_LEVEL_func_impl.vhd,1650203580,vhdl,,,,counter;led_mux;led_mux_15;led_mux_16;led_mux_17;led_mux_18;led_mux_19;led_mux_20;led_mux_21;led_mux_22;led_mux_23;led_mux_24;led_mux_25;led_mux_26;led_mux_27;led_mux_28;led_mux_29;pwm_generator;seven_segment_counter;seven_segment_generator;test_counter;test_counter_0;test_counter_1;test_counter_10;test_counter_11;test_counter_12;test_counter_13;test_counter_14;test_counter_2;test_counter_3;test_counter_4;test_counter_5;test_counter_6;test_counter_7;test_counter_8;test_counter_9;top_level,,,,,,,,

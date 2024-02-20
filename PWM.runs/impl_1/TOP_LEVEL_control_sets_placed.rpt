@@ -1,0 +1,117 @@
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.2 (win64) Build 3367213 Tue Oct 19 02:48:09 MDT 2021
+| Date         : Tue May 24 11:19:06 2022
+| Host         : LAPTOP-1JC09DAA running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file TOP_LEVEL_control_sets_placed.rpt
+| Design       : TOP_LEVEL
+| Device       : xc7a35t
+--------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    39 |
+|    Minimum number of control sets                        |    39 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |    27 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    39 |
+| >= 0 to < 4        |     0 |
+| >= 4 to < 6        |     0 |
+| >= 6 to < 8        |     1 |
+| >= 8 to < 10       |     0 |
+| >= 10 to < 12      |     0 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     0 |
+| >= 16              |    38 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              59 |           30 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |             626 |          160 |
+| Yes          | No                    | No                     |              32 |            8 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |             496 |          128 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++------------------------------------------+---------------------------------------------+---------------------------------------------+------------------+----------------+--------------+
+|               Clock Signal               |                Enable Signal                |               Set/Reset Signal              | Slice Load Count | Bel Load Count | Bels / Slice |
++------------------------------------------+---------------------------------------------+---------------------------------------------+------------------+----------------+--------------+
+|  label7/Seven_Segment_LED_reg[6]_i_2_n_0 |                                             |                                             |                3 |              7 |         2.33 |
+|  CLK_IBUF_BUFG                           |                                             | label7/clear                                |                5 |             19 |         3.80 |
+|  CLK_IBUF_BUFG                           | label6/label1_15/duty_cycle[31]_i_2__13_n_0 | label6/label1_15/duty_cycle[31]_i_1__13_n_0 |                8 |             31 |         3.88 |
+|  CLK_IBUF_BUFG                           | label6/label1_5/duty_cycle[31]_i_2__3_n_0   | label6/label1_5/duty_cycle[31]_i_1__3_n_0   |                8 |             31 |         3.88 |
+|  CLK_IBUF_BUFG                           | label6/label1_6/duty_cycle[31]_i_2__4_n_0   | label6/label1_6/duty_cycle[31]_i_1__4_n_0   |                8 |             31 |         3.88 |
+|  CLK_IBUF_BUFG                           | label6/label1_11/duty_cycle[31]_i_2__9_n_0  | label6/label1_11/duty_cycle[31]_i_1__9_n_0  |                8 |             31 |         3.88 |
+|  CLK_IBUF_BUFG                           | label6/label1_1/clear                       | label6/label1_1/duty_cycle[31]_i_1_n_0      |                8 |             31 |         3.88 |
+|  CLK_IBUF_BUFG                           | label6/label1_10/duty_cycle[31]_i_2__8_n_0  | label6/label1_10/duty_cycle[31]_i_1__8_n_0  |                8 |             31 |         3.88 |
+|  CLK_IBUF_BUFG                           | label6/label1_7/duty_cycle[31]_i_2__5_n_0   | label6/label1_7/duty_cycle[31]_i_1__5_n_0   |                8 |             31 |         3.88 |
+|  CLK_IBUF_BUFG                           | label6/label1_8/duty_cycle[31]_i_2__6_n_0   | label6/label1_8/duty_cycle[31]_i_1__6_n_0   |                8 |             31 |         3.88 |
+|  CLK_IBUF_BUFG                           | label6/label1_9/duty_cycle[31]_i_2__7_n_0   | label6/label1_9/duty_cycle[31]_i_1__7_n_0   |                8 |             31 |         3.88 |
+|  CLK_IBUF_BUFG                           | label6/label1_12/duty_cycle[31]_i_2__10_n_0 | label6/label1_12/duty_cycle[31]_i_1__10_n_0 |                8 |             31 |         3.88 |
+|  CLK_IBUF_BUFG                           | label6/label1_16/duty_cycle[31]_i_2__14_n_0 | label6/label1_16/duty_cycle[31]_i_1__14_n_0 |                8 |             31 |         3.88 |
+|  CLK_IBUF_BUFG                           | label6/label1_2/duty_cycle[31]_i_2__0_n_0   | label6/label1_2/duty_cycle[31]_i_1__0_n_0   |                8 |             31 |         3.88 |
+|  CLK_IBUF_BUFG                           |                                             | label6/count[31]_i_1_n_0                    |                8 |             31 |         3.88 |
+|  CLK_IBUF_BUFG                           | label6/label1_3/duty_cycle[31]_i_2__1_n_0   | label6/label1_3/duty_cycle[31]_i_1__1_n_0   |                8 |             31 |         3.88 |
+|  CLK_IBUF_BUFG                           | label6/label1_4/duty_cycle[31]_i_2__2_n_0   | label6/label1_4/duty_cycle[31]_i_1__2_n_0   |                8 |             31 |         3.88 |
+|  CLK_IBUF_BUFG                           | label6/label1_13/duty_cycle[31]_i_2__11_n_0 | label6/label1_13/duty_cycle[31]_i_1__11_n_0 |                8 |             31 |         3.88 |
+|  CLK_IBUF_BUFG                           | label6/label1_14/duty_cycle[31]_i_2__12_n_0 | label6/label1_14/duty_cycle[31]_i_1__12_n_0 |                8 |             31 |         3.88 |
+|  CLK_IBUF_BUFG                           |                                             | label6/label1_5/duty_cycle[31]_i_2__3_n_0   |                8 |             32 |         4.00 |
+|  CLK_IBUF_BUFG                           |                                             | label6/label1_6/duty_cycle[31]_i_2__4_n_0   |                8 |             32 |         4.00 |
+|  CLK_IBUF_BUFG                           |                                             | label6/label1_11/duty_cycle[31]_i_2__9_n_0  |                8 |             32 |         4.00 |
+|  CLK_IBUF_BUFG                           |                                             | label6/label1_1/clear                       |                8 |             32 |         4.00 |
+|  CLK_IBUF_BUFG                           |                                             | label6/label1_10/duty_cycle[31]_i_2__8_n_0  |                8 |             32 |         4.00 |
+|  CLK_IBUF_BUFG                           |                                             | label6/label1_7/duty_cycle[31]_i_2__5_n_0   |                8 |             32 |         4.00 |
+|  CLK_IBUF_BUFG                           |                                             | label6/label1_8/duty_cycle[31]_i_2__6_n_0   |                8 |             32 |         4.00 |
+|  CLK_IBUF_BUFG                           |                                             | label6/label1_9/duty_cycle[31]_i_2__7_n_0   |                8 |             32 |         4.00 |
+|  CLK_IBUF_BUFG                           |                                             | label6/label1_12/duty_cycle[31]_i_2__10_n_0 |                8 |             32 |         4.00 |
+|  CLK_IBUF_BUFG                           |                                             | label4/curr_time0                           |                8 |             32 |         4.00 |
+|  CLK_IBUF_BUFG                           |                                             | label4/Value_0                              |               11 |             32 |         2.91 |
+|  CLK_IBUF_BUFG                           |                                             | label6/label1_16/duty_cycle[31]_i_2__14_n_0 |                8 |             32 |         4.00 |
+|  CLK_IBUF_BUFG                           |                                             | label6/label1_2/duty_cycle[31]_i_2__0_n_0   |                8 |             32 |         4.00 |
+|  CLK_IBUF_BUFG                           |                                             | label6/label1_3/duty_cycle[31]_i_2__1_n_0   |                8 |             32 |         4.00 |
+|  CLK_IBUF_BUFG                           |                                             | label6/label1_4/duty_cycle[31]_i_2__2_n_0   |                8 |             32 |         4.00 |
+|  CLK_IBUF_BUFG                           |                                             | label6/label1_15/duty_cycle[31]_i_2__13_n_0 |                8 |             32 |         4.00 |
+|  CLK_IBUF_BUFG                           |                                             | label6/label1_14/duty_cycle[31]_i_2__12_n_0 |                8 |             32 |         4.00 |
+|  CLK_IBUF_BUFG                           | label4/curr_time0                           |                                             |                8 |             32 |         4.00 |
+|  CLK_IBUF_BUFG                           |                                             | label6/label1_13/duty_cycle[31]_i_2__11_n_0 |                8 |             32 |         4.00 |
+|  CLK_IBUF_BUFG                           |                                             |                                             |               27 |             52 |         1.93 |
++------------------------------------------+---------------------------------------------+---------------------------------------------+------------------+----------------+--------------+
+
+

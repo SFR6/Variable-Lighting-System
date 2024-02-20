@@ -1,0 +1,9 @@
+Just for clarification, some names of VHDL modules are not the same in the project and in the diagram.
+The more suitable ones are in the diagram and that's why I didn't want to rename the VHDL module files so that I don't have to recompile everything and aggravate the situation.
+Therefore, the following are the modules that have different names:
+
+(diagram) = (VHDL module)
+
+"Transformer" = "Decoder"
+"Auto_Mode Counter" = "Counter"
+"Two_Seconds Counter" = "Seven_Segment_Counter"
